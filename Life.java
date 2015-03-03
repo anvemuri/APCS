@@ -1,3 +1,13 @@
+/*Life is a computer simulation of the life and death events of a population of bacterial organisms. This program will 
+determine the life, death, and survival of bacteria from one generation to the next, assuming the starting grid of bacteria 
+is considered generation zero. The rules for the creation of the next generation are as follows:
+-A 'neighbor' of a cell is any living cell touching that cell (a living cell that surrounds that cell).
+-Any living cell with one or zero neighbors will 'die' of loneliness (deaths).
+-Any living cell with four or more living neighbors will 'die' from overcrowding (deaths).
+-Any living cell with two or three neighbors will continue living into the next generation (no change).
+-Any dead cell with exactly three neighbors will 'come to life' in the next generation (births).
+-All births and deaths occur simultaneously.*/
+
 import java.io.*;
 import java.util.*;
 public class Life{
