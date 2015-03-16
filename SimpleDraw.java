@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import javax.swing.event.*;
 
-public class SimpleDrawAVemuriPeriod7 {
+public class SimpleDraw {
 
 	public static void main(String[] args) {
 
