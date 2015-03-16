@@ -14,7 +14,7 @@ import java.awt.event.InputEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class ClassworkGUIAVemuriPeriod7 implements MouseListener{
+public class ClassworkGUI implements MouseListener{
 	int slidernum;
 	JSlider slider = new JSlider(JSlider.VERTICAL, 0, 50, 25);
 	RightPanel rp;
