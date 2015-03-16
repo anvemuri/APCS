@@ -4,7 +4,7 @@ L-shaped moves (two over in one direction, then one in a perpendicular direction
 import java.util.ArrayList;
 import java.util.Random;
 
-public class KnightsTour1AVemuriPeriod7 {
+public class KnightsTour1Driver {
 	public static void main(String[] args) {
 		KnightsTour1 k = new KnightsTour1();
 		k.initializeArray();
